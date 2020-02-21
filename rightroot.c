@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <math.h>
 
 /*
@@ -7,13 +6,6 @@
  */
 
 int rightroot(int x, int n);
-
-int main()
-{
-    printf("%d\n", rightroot(1, 1)); /* test */
-
-    return 0;
-}
 
 int rightroot(int x, int n)
 {
